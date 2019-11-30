@@ -23,6 +23,7 @@ header>h1 {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
+    box-shadow: 0 10px 20px black;
 }
 
 .content {
