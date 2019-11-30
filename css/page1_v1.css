@@ -1,3 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 header {
-    background-color: #ec1316;
+    background-color: #00004c;
+    padding: 30%;
+}
+
+header>h1 {
+    font-size: 90px;
+    color: darkred;
+    text-align: center;
+    background-color: black;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+#profile_img {
+    width: 450px;
+    border-radius: 30%;
+    border: 20px solid #CC0000;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 0 10px 20px black;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto auto;
+    padding: 0 20px;
+}
+
+#cat_ref {
+    max-width: 100%;
+    display: block;
+    margin: 2px 15px;
+}
+
+footer {
+    /*     background: rgb(189,52,59);
+    background: linear-gradient(90deg, rgba(189,52,59,1) 0%, rgba(241,64,64,1) 23%, rgba(0,212,255,1) 100%); */
+    background-color: #f14043;
+    text-align: center;
+}
+
+footer h1 {
+    padding: 15px 0 0 0;
+    font-size: 30px;
+}
+
+footer h2 {
+    padding: 5px;
+}
+
+footer ul {
+    font-size: 30px;
+    list-style: none;
+    background-color: lightgray;
+}
+
+footer li {
+    font-size: 20px;
+    display: inline
+}
+
+a:hover {
+    color: yellow;
 }
